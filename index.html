@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Collection</title>
+    <link rel="stylesheet" href="/css/styles.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <button class="btn btn-default" type="submit">All</button>
+    <button class="btn btn-default" type="submit">New Releases</button>
+    <button class="btn btn-default" type="submit">Favorites</button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort By <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Title</a></li>
+        <li><a href="#">Release</a></li>
+        <li><a href="#">Rating</a></li>
+        <!-- <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li> -->
+      </ul>
+    </div>
+    <!-- add movie form goes here -->
+    <div class="content">
+      <!-- movies go here -->
+    </div>
+    <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
+    <script src="bower_components/backbone/backbone.js" charset="utf-8"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="data.js" charset="utf-8"></script>
+    <script src="models.js" charset="utf-8"></script>
+    <script src="collections.js" charset="utf-8"></script>
+    <script src="views.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>

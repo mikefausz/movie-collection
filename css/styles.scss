@@ -1,0 +1,37 @@
+#add-btn {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+.content {
+  width: 90%;
+  margin: auto;
+}
+
+article {
+  width: 100%;
+  padding: 3% 0;
+  border-bottom: lightgrey solid 1px;
+}
+
+.cover-box {
+  height: 371px;
+  width: 249px;
+  display: inline-block;
+  overflow: hidden;
+  img {
+    height: 100%;
+  }
+}
+
+.form-box {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 2%;
+  width: 50%;
+}
+
+.detail-box, .edit-detail-box {
+  @extend .form-box;
+}
