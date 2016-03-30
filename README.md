@@ -7,7 +7,7 @@ This project was created to fulfill an assignment for The Iron Yard Charleston's
 
 ----------------------------------
 
-Week 6, Day 2
+Week 7, Day 2
 
 Backbone IMDB
 
